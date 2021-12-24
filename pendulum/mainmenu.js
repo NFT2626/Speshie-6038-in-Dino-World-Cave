@@ -9,7 +9,7 @@ BasicGame.MainMenu.prototype = {
 
 	create: function () {
         this.background = new Background(this.game, this.game.width, this.game.height);
-        this.message = new Message(this.game, 'PENDULUM', 'TAP or press SPACE to start', true);
+        this.message = new Message(this.game, 'Speshie #6038 Dino World Cave Adventures', 'TAP or press SPACE to start', true);
         this.spacebar = this.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
 	},
 
